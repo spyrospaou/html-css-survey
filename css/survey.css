@@ -1,0 +1,162 @@
+*{
+    padding:0;
+    margin:0;
+    list-style-type: none;
+    outline:none;  
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin:0 auto;
+    width:98vw;
+    background-color:darkblue; 
+    background-image:linear-gradient(
+      115deg,
+      rgba(58, 58, 158, 0.8),
+      rgba(136, 136, 206, 0.7) 
+    ), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;   
+}
+
+.centerParagraphs{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;   
+    margin-top:60px;
+    text-align:center;
+}
+
+.headline{
+    font-weight:400;
+    color:White;
+    font-size:38px;    
+}
+
+.secondLine{
+    opacity:0.8;
+    color:White;
+    font-size:20px;
+    margin-top:20px;
+    font-style: italic;   
+}
+
+.flex-container{
+    display:flex;
+    justify-content:center;
+}
+
+.container{
+    padding:50px;
+    width:600px;
+    background-color:rgba(27,27,50,0.8);
+    margin-top:40px;
+    display:flex;
+    justify-content:center;   
+}
+
+form{
+    width:100%;
+    color:White;
+    font-size:20px;
+    
+}
+
+input{
+    width:100%;
+    margin-top:15px;
+    padding:10px;
+    outline:none; 
+    
+}
+
+form ul li{
+    margin-bottom:20px;  
+}
+
+.inputRadio{
+    min-height:1.10rem;
+    min-width:1.25rem;
+}
+
+.inputRadio + label{
+    font-size:23px;
+    
+}
+
+select{
+    width:100%;
+    margin-top:10px;
+    padding:10px;
+    outline:none; 
+}
+
+select option{
+    font-size:20px;    
+       
+}
+
+.buttonCenter{
+    margin-bottom:30px;
+}
+
+.buttonCenter li{
+    margin-bottom:0px;
+}
+
+.buttonCenter li input{
+    width:auto;
+    
+}
+
+.fontSize{
+    font-size:16px;
+}
+
+label,button,select,input{  
+    cursor: pointer;
+}
+
+input,select{
+    border-radius: 0.25rem;
+    border:1px solid #ced4da;
+}
+
+.checkboxList li input{
+    width:auto; 
+}
+
+.checkboxList li{
+    margin-bottom:0;
+    
+}
+
+#checkbox,#checkbox2,#checkbox3{
+    min-height:1.10rem;
+    min-width:1.25rem;
+    
+}
+
+.checkboxList{
+    margin-bottom:30px;
+}
+
+textarea{
+    width:100%;
+    min-height:120px;
+    margin-top:10px;
+    font-family:inherit;
+    font-size:inherit;
+    
+}
+
+button{
+    width:100%;
+    background-color:green;
+    color:white;
+    margin-top:30px;
+    padding:10px;
+    font-family:inherit;
+    font-size:inherit;
+}

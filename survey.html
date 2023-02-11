@@ -1,0 +1,117 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css\survey.css">
+    
+</head>
+<body>
+
+    <div class="centerParagraphs">
+        <h1 class="headline">freeCodeCamp Survey Form</h1>
+        <p class="secondLine">Thank you for taking the time to help us improve the platform</p>
+    </div>
+
+    <div class="flex-container">
+        <div class="container">
+            <form action="">
+                <ul>
+                    <li>
+                        <label for="">Name</label>
+                        <input type="text" placeholder="Enter Your Name">
+                    </li>
+
+                    <li>
+                        <label for="">Email</label>
+                        <input type="text" placeholder="Enter Your Email">
+                    </li>
+
+                    <li>
+                        <label for="">Age (optional)</label>
+                        <input type="text" placeholder="Enter Your Age">
+                    </li>
+
+                    <li>
+                        <p>Which option best describes your current role?</p>
+                        <label for="">
+                            <select name="cars" id="cars">
+                                <option value="select" disabled selected>Select current role</option>
+                                <option value="saab">Saab</option>
+                                <option value="mercedes">Mercedes</option>
+                                <option value="audi">Audi</option>
+                              </select>
+                        </label>
+                     </li>      
+                                   
+                <div class="buttonCenter">
+                    <li>
+                        <p>Would you recommend freeCodeCamp to a friend?</p>
+                        <label for="inputRadio1">
+                        <input type="radio" id="inputRadio1" value="Definitely" name="radio" class="inputRadio" checked> Definitely
+                        </label>
+                        
+                    </li>
+
+                    <li>
+                        <label for="inputRadio2">
+                        <input type="radio" id="inputRadio2" value="Maybe" name="radio" class="inputRadio"> Maybe
+                       </label>
+                    </li>
+
+                    <li>
+                        <label for="inputRadio3">
+                        <input type="radio" id="inputRadio3" value="NotSure" name="radio" class="inputRadio"> Not Sure
+                        </label>
+                    </li>
+                </div>    
+                
+                    
+                  <li>
+                    <p>What is your favorite feature of freeCodeCamp??</p>
+                    <label for="">
+                        <select name="cars" id="cars">
+                            <option value="select" disabled selected>Select an option</option>
+                            <option value="saab">Saab</option>
+                            <option value="mercedes">Mercedes</option>
+                            <option value="audi">Audi</option>
+                          </select>
+                    </label>
+                 </li> 
+
+                 <div class="checkboxList">
+                    <li>
+                     <p>What would you like to see improved? <span class="fontSize">(Check all that apply)</span></p>
+                     <label for="checkBox"> 
+                       <input type="checkbox" name="checkbox" id="checkBox" value="Front-end Projects"> Front-end Projects
+                    </label>                                
+                  </li>
+
+
+                  <li>
+                    <label for="checkBox2">
+                        <input type="checkbox" name="checkbox" id="checkBox2" value="Back-end Projects"> Back-end Projects
+                    </label> 
+
+                  </li>
+
+                  <li>
+                    <label for="checkBox3"> 
+                        <input type="checkbox" name="checkbox" id="checkBox3" value="Data Visualization">  Data Visualization
+                    </label>
+                
+                  </li>
+                </div>
+            
+                
+                 <p>Any comments or suggestions?</p>
+                 <textarea placeholder="Enter you comment here..."></textarea>
+                
+                <button>Submit</button>
+
+                </ul>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
